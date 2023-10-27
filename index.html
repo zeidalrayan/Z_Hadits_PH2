@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projek Hadits</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css  ">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header class="p-3 px-4 py-4">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid ">
+                <a class="logo navbar-brand fw-bolder text-light fs-4" href="#"><i class="fa-solid fa-book-quran"
+                        style="color: #ffff;"></i> Z Hadits </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <form class="d-flex ms-auto" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-secondary btn-top d-flex align-items-center" type="submit">my hadits
+                            <i class="fa-solid fa-bookmark ms-2 fs-5"></i></button>
+                    </form>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="text text-light fs-6  ">
+            <h2>Tentang Z Hadits</h2>
+            <p>Hadits, sebagai warisan berharga dari Nabi Muhammad SAW, adalah sumber inspirasi dan pedoman bagi
+                umat
+                Islam di seluruh dunia. Hadits-hadits ini berisi ajaran-ajaran, nasihat, dan peristiwa-peristiwa
+                yang
+                memberikan wawasan mendalam tentang cara hidup yang benar, etika, dan kebijaksanaan dalam kehidupan
+                sehari-hari. Sejak ribuan tahun lalu, hadits-hadits ini telah menjadi pijakan bagi generasi umat
+                Islam
+                dalam memahami dan menjalani ajaran Islam dengan lebih baik.</p>
+        </div>
+
+
+    </header>
+
+    <section class="py-2 px-5 text-center mt-5">
+        <h2 class="fw-semibold">Hadits pilihan</h2>
+        <div id="output">
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <h3 class="texta mt-5"><i class="fa-solid fa-book-quran" style="color: #ffff;"></i> Z Hadits</h3>
+
+            <div class="tentangfooter">
+                <h2>Tentang web Hadits</h2>
+                <p>Hadits-hadits ini berisi ajaran-ajaran, nasihat, dan peristiwa-peristiwa
+                    yang
+                    memberikan wawasan mendalam tentang cara hidup yang benar, etika, dan kebijaksanaan dalam kehidupan
+                    sehari-hari.</p>
+            </div>
+            <div class="informasi">
+                <h2>Informasi</h2>
+                <a href="#">Kebijakan privasi</a>
+                <a href="#">Syarat dan ketentuan</a>
+                <a href="#">Bantuan</a>
+            </div>
+
+        </div>
+        <p class="mb-lg-0 text-center text-light w-75">&copy;2023 zeid alrayan pasha.ALL right reserved </p>
+    </footer>
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"
+        integrity="sha512-emSwuKiMyYedRwflbZB2ghzX8Cw8fmNVgZ6yQNNXXagFzFOaQmbvQ1vmDkddHjm5AITcBIZfC7k4ShQSjgPAmQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
+    <script>
+        getListhadist();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,262 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,600&family=Quicksand:wght@400;500;600;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-top{
+    width: 200px;
+}
+header{
+  background-image: url(./Frame\ 2.png);
+  background-size: cover;
+}
+
+#output{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+  gap: 2rem ;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+
+  
+}
+#btntop{
+  position: fixed;
+background-color: gray;
+font-size: 20px;
+color: #ffffff;
+  cursor: pointer;
+  right: 20px;
+  bottom: 20px;
+  border: none;
+width: 50px;
+z-index: 10;
+height: 50px;
+ border-radius: 50px;
+
+}
+button{
+  width: 12%;
+}
+#output img{
+  width: 55%;
+height: 55%;
+border-radius: 10px;
+object-fit: contain;
+ 
+}
+.card-hadist{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  border-radius: 10px;
+}
+.card-hadist a{
+  text-decoration: none;
+
+  
+ 
+}
+#output-search{
+  padding-left: 2.5rem;
+ padding-right: 2.5rem;
+}
+
+
+  
+ .error{
+  color: red;
+  padding-bottom: 2rem;
+  text-align: center;
+  margin-top: -2rem;
+ }
+
+
+.text{
+  margin-top: 8rem;
+  display: flex;
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  gap: 1rem;
+  flex-direction: column;
+ 
+}
+.search{
+  text-align: center;
+
+display: flex;
+padding-bottom: 2rem;
+flex-direction: column;
+align-items: center;
+gap: 1.3rem;
+}
+.back{
+  display: flex;
+padding: 1.5rem;
+
+}
+.back input{
+
+background-color: gray;
+border-radius: 5px;
+color: white;
+padding-left:2rem;
+padding-right: 2rem ;
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+}
+.search input{
+  width: 40%;
+  text-align: center;
+  border-radius: 5px;
+}
+.arab{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#output-hadits{
+ padding-left: 2.5rem;
+ padding-right: 2.5rem;
+ display: grid;
+ gap: 2.5rem;
+
+ 
+}
+footer{
+  background-color: gray;
+padding-bottom: 2rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+  
+}
+.copy p{
+  color: white;
+  text-align: center;
+
+}
+.footer{
+  display: flex;
+  padding-top: 4rem;
+  gap: 1.5rem;
+  padding-bottom: 5rem;
+  justify-content: center;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.informasi{
+  display: flex;
+  text-align: center;
+  width: 35%;
+  text-decoration: none;
+  gap: 0.3rem;
+  flex-direction: column;
+  
+}
+.informasi a{
+  text-decoration: none;
+  color: white;
+}
+
+.texta{
+  width: 25%;
+}
+.judul{
+  background-color: gray;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.navbar-toggler-icon{
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28353,255,255,255%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.navbar-toggler {
+  --bs-navbar-toggler-padding-y: 0rem;
+  --bs-navbar-toggler-padding-x: 0rem;}
+.tentangfooter{
+  width: 50%;
+}
+@media screen and (max-width: 1000px) {
+  .arab p{
+    font-size: 18px
+    ;
+  }
+  #output-search{
+    padding-left: 0rem;
+   padding-right: 0rem;
+  }
+  .text p{
+    font-size: 16px;
+    
+  }
+  .btn{
+    width: 50%;
+  }
+  .text{
+    gap: 0.5rem;
+    margin-top: 4rem;
+    font-size: 18px;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+  .text p{
+    font-size: 14px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 3rem;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+ 
+  }
+
+  .back input{
+
+    padding-left:1rem;
+    padding-right: 1rem ;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    }
+  .texta{
+    width: 100%;
+  }
+.logo{
+font-size: 3rem;
+}
+.informasi{
+  width: 100%;
+}
+  .tentangfooter{
+    width: 100%;
+  }
+  #output-hadits{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+
